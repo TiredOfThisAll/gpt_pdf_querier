@@ -1,7 +1,7 @@
 ## Installation
 
 1. Make sure you have Python installed (version 3.8 and above).
-2. Unpack project.zip
+2. Clone repository
 3. Go to destination directory
 3. Install dependencies:
     ```
