@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="{{ url_for('static', filename='main.js') }}" defer></script>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <title>Pdf info extractor</title>
+        {% block head %}
+        {% endblock head %}
+    </head>
+
+    <body>
+        <header>
+            <a class="site-logo" href="{{ url_for('root') }}">
+                Pdf info extractor
+            </a>
+        </header>
+        <div class="main-container">
+            <main>
+                {% block content %}
+                {% endblock content %}
+            </main>
+        </div>
+        <div class="spinner">
+            <div class="inner-spinner">
+                Loading...
+            </div>
+        </div>
+    </body>
+</html>

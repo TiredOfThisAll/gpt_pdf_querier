@@ -1,0 +1,7 @@
+Flask==3.0.2
+langchain==0.1.12
+langchain-community==0.0.28
+langchain-core==0.1.31
+langchain-openai==0.0.8
+langchain-text-splitters==0.0.1
+langchainhub==0.1.15

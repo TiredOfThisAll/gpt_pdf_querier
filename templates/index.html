@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="card">
+        <div>Upload Your PDF</div>
+        <div class="upload-form">
+            <input type="file" accept=".pdf" hidden>
+            <button onclick="handleUpload()">Upload File</button>
+        </div>
+    </div>
+{% endblock content %}
