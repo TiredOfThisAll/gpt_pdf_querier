@@ -7,6 +7,7 @@
     ```
     pip install -r requirements.txt
     ```
+4. Create file token.txt and insert token for OpenAI API
 
 ## Usage
 
